@@ -72,7 +72,7 @@ if __name__ == '__main__':
         rand_index = rand_score(target, predLabels)
         print("rand index: ", rand_index)
 
-    # saving my result # ####
+    #### saving my result #####
     f = open(outputfile, "w")
     f.write("number of centroids: ")
     f.write(str(len(centroids)))
